@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我</title>
+
+    <!--    自定义的me.css-->
+    <link rel="stylesheet" href="css/me.css">
+    <!--    semantic-css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
+</head>
+<body>
+
+<!--    导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini shadow-small">
+    <div class="ui container">
+        <!--        stackable 屏幕小时可堆叠，用于适配移动端-->
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">G4VIN'S BLOG</h2>
+            <!--                i.图标名称.icon+tab 直接生成对应图标的<i>标签-->
+            <a href="index.html" class="item m-item m-mobile-hide"><i class="home icon"></i>首页</a>
+            <a href="#" class="item active m-item m-mobile-hide"><i class="idea icon"></i>分类</a>
+            <a href="tags.html" class="item  m-item m-mobile-hide"><i class="tags icon"></i>标签</a>
+            <a href="archives.html" class="item m-item m-mobile-hide"><i class="clone icon"></i>归档</a>
+            <a href="#" class="item m-item m-mobile-hide"><i class="info icon"></i>关于我</a>
+
+            <div class="right item m-item m-mobile-hide">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" placeholder="Search....">
+                    <i class="search link icon"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--    手机端用于显示分类的按钮-->
+    <a href="#" class="ui menu-toggle black icon button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+
+</nav>
+
+
+<!--    中间内容-->
+<div class="m-padded-tb-large m-container-small ">
+    <div class="ui container">
+        <div class="ui grid stackable">
+       <div class="eleven wide column">
+           <img src="https://picsum.photos/800/600" alt="" class="ui image rounded">
+       </div>
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+                <div class="ui attached segment m-text-thin">
+                    Hi! 俺是高宇辰，一个正在努力学习的开发者。就读于青岛大学，热爱折腾各种数码产品。虽然学了忘，忘了学，学了还得忘，但还是要忘了学，学了忘，忘了还得学啊！
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui orange basic label">编程</div>
+                    <div class="ui orange basic label">美食</div>
+                    <div class="ui orange basic label">篮球</div>
+                    <div class="ui orange basic label">滑雪</div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui teal basic m-margin-bottom-small label">Java</div>
+                    <div class="ui teal basic m-margin-bottom-small label">Html</div>
+                    <div class="ui teal basic m-margin-bottom-small label">MySql</div>
+                    <div class="ui teal basic m-margin-bottom-small label">CSS</div>
+                    <div class="ui teal basic m-margin-bottom-small label">Semantic UI</div>
+                    <div class="ui teal basic m-margin-bottom-small label">BootStrap</div>
+                    <div class="ui teal basic m-margin-bottom-small label">...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--    底部内容-->
+<footer class="ui center aligned inverted vertical segment m-padded-tb-massive">
+    <div class="ui container center aligned">
+        <!--            grid 水平的分成16份-->
+        <div class="ui inverted stackable divided grid">
+            <div class="three wide column">
+                <img src="images/IMG_4772(20210106-172257).JPG" class="ui centered aligned rounded image"
+                     style="width: 120px" alt="">
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header ">最新内容</h4>
+                <div class="ui inverted link list">
+                    <a href=""
+                       class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini">FFFirst</a>
+                    <a href=""
+                       class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini">SSSecond</a>
+                    <a href=""
+                       class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini">TTThird</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header ">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="" class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini"><i
+                            class="envelope icon"></i>Email：919355884@qq.com</a>
+                    <a href="https://weibo.com/u/2585732554"
+                       class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini"><i
+                            class="weibo icon"></i>Weibo：G4VIN_911</a>
+                    <a href="" class="item ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini"></a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4>G4VIN</h4>
+                <p class="ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini">
+                    这里是青大彭于晏的个人博客，流水账和学习笔记堆放处。想到啥就写啥没啥规律，希望对看到这句话的你能够有一点点帮助……</p>
+            </div>
+        </div>
+    </div>
+    <div class="ui inverted section divider"></div>
+    <p class="ui inverted m-text-lined m-text-spaced m-text-thin m-opacity-mini">Copyright © 2020-2021 Designed by
+        Gaoyuchen</p>
+</footer>
+
+
+<!--jquery-->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<!--semantic-js-->
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $('.menu-toggle').click(function () {
+
+        $('.m-item').toggleClass('m-mobile-hide');
+        // $('.m-item').toggle();
+    });
+
+    $('#payButton').popup({
+        popup: $('.payQ.popup'),
+        on: 'click',
+        position: 'bottom center'
+    });
+</script>
+</body>
+</html>
